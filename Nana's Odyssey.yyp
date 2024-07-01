@@ -40,7 +40,6 @@
     {"id":{"name":"o_bow","path":"objects/o_bow/o_bow.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},
-    {"id":{"name":"test","path":"objects/test/test.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"player_processes","path":"scripts/player_processes/player_processes.yy",},},
     {"id":{"name":"s_arrow_explode","path":"sprites/s_arrow_explode/s_arrow_explode.yy",},},

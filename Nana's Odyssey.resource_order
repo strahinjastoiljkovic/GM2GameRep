@@ -21,7 +21,6 @@
     {"name":"o_arrow","order":2,"path":"objects/o_arrow/o_arrow.yy",},
     {"name":"o_bow","order":1,"path":"objects/o_bow/o_bow.yy",},
     {"name":"o_solid","order":1,"path":"objects/o_solid/o_solid.yy",},
-    {"name":"test","order":11,"path":"objects/test/test.yy",},
     {"name":"s_arrow_explode","order":10,"path":"sprites/s_arrow_explode/s_arrow_explode.yy",},
     {"name":"s_bow","order":7,"path":"sprites/s_bow/s_bow.yy",},
     {"name":"s_cursor","order":8,"path":"sprites/s_cursor/s_cursor.yy",},
