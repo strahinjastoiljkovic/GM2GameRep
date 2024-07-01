@@ -27,7 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":"weapon_arrow",
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
