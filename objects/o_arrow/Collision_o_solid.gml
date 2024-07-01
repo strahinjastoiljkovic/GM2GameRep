@@ -1,0 +1,1 @@
+arrow_die() //Ako udari zid, biva unistena i krece animacija

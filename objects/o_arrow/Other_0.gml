@@ -1,0 +1,1 @@
+instance_destroy(); //Ako objekat - strela, napusti sobu, biva unistena
