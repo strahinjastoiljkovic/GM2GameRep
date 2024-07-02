@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"Player",
-    "path":"folders/Player.yy",
+    "path":"folders/Entity/Player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -59,7 +59,7 @@
     },
     "name":"s_player_hit",
     "playback":1,
-    "playbackSpeed":30.0,
+    "playbackSpeed":1.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
