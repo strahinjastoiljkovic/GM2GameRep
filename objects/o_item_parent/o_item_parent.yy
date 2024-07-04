@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"o_arrow_explode",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_item_parent",
+  "eventList":[],
   "managed":true,
-  "name":"o_arrow_explode",
+  "name":"o_item_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_arrow_explode",
-    "path":"sprites/s_arrow_explode/s_arrow_explode.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

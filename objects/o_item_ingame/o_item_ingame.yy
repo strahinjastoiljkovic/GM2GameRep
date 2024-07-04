@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"o_enemy",
+  "%Name":"o_item_ingame",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_enemy",
+  "name":"o_item_ingame",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemy",
-    "path":"folders/Entity/Enemy.yy",
+    "name":"Entity",
+    "path":"folders/Entity.yy",
   },
-  "parentObjectId":{
-    "name":"o_enemy_par",
-    "path":"objects/o_enemy_par/o_enemy_par.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_enemy_idle",
-    "path":"sprites/s_enemy_idle/s_enemy_idle.yy",
+    "name":"s_bow",
+    "path":"sprites/s_bow/s_bow.yy",
   },
-  "spriteMaskId":{
-    "name":"s_enemy_idle",
-    "path":"sprites/s_enemy_idle/s_enemy_idle.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

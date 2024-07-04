@@ -20,9 +20,14 @@ function calc_movement() { //Racuna pokret
 	hmove = right - left;
 	vmove = down - up;
 	
-	var _facing = (aim_dir < 90 or aim_dir > 270);
-	if _facing == 0 _facing = -1;
-	facing = _facing;
+	//var _facing = (aim_dir < 90 or aim_dir > 270);
+	//if _facing == 0 _facing = -1;
+	//facing = _facing;
+	if hmove != 0 facing = hmove;
+	
+
+	
+	
 	
 	if hmove != 0 or vmove != 0 {
 		//Pravac kretanja
@@ -36,6 +41,7 @@ function calc_movement() { //Racuna pokret
 		x += hmove;
 		y += vmove;
 	}
+	
 	
 	//dodaj knockback
 	x += hsp;
@@ -53,12 +59,6 @@ function calc_movement() { //Racuna pokret
 	
 }
 
-function aim_bow(){
-	
-	aim_dir = point_direction(x, y, mouse_x, mouse_y);
-	my_bow.image_angle = aim_dir;
-	
-}
 	
 function collision() {
 	
@@ -106,20 +106,20 @@ function anim() {
 	
 function check_fire () {
 	if mouse_check_button(mb_left) {
-		if can_attack {
-			can_attack = false
+		if can_fire {
+			can_fire = false; 
 			alarm[0] = fire_rate;
 			
 			var _dir = point_direction(x, y, mouse_x, mouse_y);
-			bow_dist = 5;
 			
-			var _inst = instance_create_layer(x, y, "Arrow", o_arrow, )
-			with(_inst) { //Kada se uzima varijabla izvan objekta u kome radimo
+			var _inst = instance_create_layer(x, y, "Arrow", o_arrow);
+			with(_inst){
 				speed = other.arrow_speed;
 				direction = _dir;
-				image_angle = _dir; //Da strela bude okrenuta u pravcu ispaljivanja
-				owner_id = other; //Da bi strela udarala samo neprijatelje
+				image_angle = _dir;
+				owner_id = other;
 			}
 		}
 	}
 }
+

@@ -1,0 +1,1 @@
+item = new bow(); 

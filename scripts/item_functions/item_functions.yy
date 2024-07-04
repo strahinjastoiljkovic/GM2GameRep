@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"macros_enums",
+  "%Name":"item_functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"macros_enums",
+  "name":"item_functions",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
