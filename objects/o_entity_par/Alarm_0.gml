@@ -1,2 +1,2 @@
 /// @description player can fire
-can_fire = true;
+can_attack = true;

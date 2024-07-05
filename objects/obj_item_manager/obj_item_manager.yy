@@ -11,8 +11,8 @@
   "name":"obj_item_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Control",
+    "path":"folders/Control.yy",
   },
   "parentObjectId":null,
   "persistent":true,

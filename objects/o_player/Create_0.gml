@@ -10,7 +10,7 @@ bow_dist = 8; //Koliko daleko je luk od lika
 fire_rate = 30;
 arrow_speed = 8;
 bow = 0
-can_fire = true; 
+can_attack = true; 
 //bow = instance_create_layer(x, y, "Instances", o_bow); //Luk
 #endregion
 

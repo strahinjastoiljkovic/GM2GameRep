@@ -106,8 +106,8 @@ function anim() {
 	
 function check_fire () {
 	if mouse_check_button(mb_left) {
-		if can_fire {
-			can_fire = false; 
+		if can_attack {
+			can_attack = false; 
 			alarm[0] = fire_rate;
 			
 			var _dir = point_direction(x, y, mouse_x, mouse_y);

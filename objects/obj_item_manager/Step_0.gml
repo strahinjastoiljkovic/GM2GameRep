@@ -20,4 +20,10 @@ if selected_item != -1 {
 		inv[selected_item].effect(); 
 	}
 	
+	//baci item
+	if keyboard_check_pressed(ord("F")) && inv[selected_item].can_drop == true {
+		array_delete(inv, selected_item, 1);
+		//instance_create_layer(o_player.x - 15, o_player.y -15, "Instances", o_item_ingame); //Ovde treba napraviti nesto da se item ne bi izbrisao kad se baci
+	}
+	
 }
